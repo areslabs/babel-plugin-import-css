@@ -3,16 +3,24 @@
     "cssWatch": "./src/cssWatch.js"
   },
   "name": "@areslabs/babel-plugin-import-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React native can’t use the Webpack loaders, this plugin to make .css files importable in React native",
   "main": "src/index.js",
   "scripts": {
     "test": "jest --config=jest.config.js",
     "eslint": "eslint ./src --ext .js"
   },
+  "keywords": [
+    "react",
+    "native",
+    "css",
+    "hoc"
+  ],
+  "homepage": "https://github.com/areslabs/babel-plugin-import-css",
+  "bugs": "https://github.com/areslabs/babel-plugin-import-css/issues",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/areslabs/babel-plugin-import-css"
   },
   "author": "",
   "license": "Apache 2.0",
